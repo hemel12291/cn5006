@@ -1,0 +1,1 @@
+const number = parseInt(prompt("Enter a number:  "));

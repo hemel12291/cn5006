@@ -4,13 +4,13 @@ console.log("welcome Jhon your montyh salary is 500000 ")
 
 //app.js or index.js
 const prompt = require('prompt-sync')(); // This line is essential
-console.log("starting")
-const name= prompt('Enter your name:  ')
+console.log("starting");
+const name= prompt('Enter your name:  ');
 console.log("Hello, ${name}");
 //program that checks if the number is positive, negative or zero
 //input from the user
 
-const number = parsenInt(prompt("Enter a n umber:  "));
+const number = parseInt(prompt("Enter a number:  "));
 
 // check if number is greater than 0
 if (number>0){
